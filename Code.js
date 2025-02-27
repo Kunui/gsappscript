@@ -1,3 +1,5 @@
-function myFunction() {
-  console.log("hellow appscript!")
+function doGet() {
+
+  return HtmlService.createHtmlOutputFromFile("index");
+  
 }
